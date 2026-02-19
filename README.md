@@ -23,7 +23,10 @@ Built with:
 - 🎨 Interactive Streamlit UI  
 
 ---
+## 📚 Resources
 
+- [Building and Evaluating Q&A Application using Amazon Bedrock Knowledge Bases with RAG Assessment (RAGAS Framework)](https://builder.aws.com/content/36TVYZFlUUDzeqVglivCxsvOnRh/building-and-evaluating-qanda-application-using-amazon-bedrock-knowledge-bases-using-rag-assessment-ragas-framework)
+---
 ## Architecture Diagram
 ```text
 User → Streamlit UI → API Gateway → Lambda → DynamoDB / S3 → Vector DB (FAISS/OpenSearch) → LLM (Bedrock/SageMaker)
